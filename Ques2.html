@@ -1,0 +1,32 @@
+<!--2. Design a delete button, choose proper color and text on button, keep user interactivity in your mind.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Button</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap">
+    <link rel="stylesheet" href="Ques2.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h2 class="name">Registration form</h2>
+            <input type="text" size="20" placeholder="Enter Name" pattern="[a-z]*">
+            <input type="email"  name="email" placeholder="Enter Email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <input type="password" name="pwd" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+            <input type="" class="number" name="Number" placeholder="Enter Number" size="10" pattern="[0-9]">
+            <div class="btn">
+                <button class="submit">Submit</button>
+                <button  class="Delete"><i class="fa fa-trash" aria-hidden="true"> Delete</i></button>
+            </div>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/704ff50790.js"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
